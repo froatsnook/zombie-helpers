@@ -1,6 +1,6 @@
 During the development of a large meteor application, I noticed that many helpers were unused and hanging around until someone figured out it was time to delete them.
 
-This package inserts itself between meteor and your helpers.  It provides a function you can call to get a list of helpers that were never called.
+This package inserts itself between Meteor and your helpers.  It provides a function you can call to get a list of helpers that were never used.
 
 Usage
 =====
