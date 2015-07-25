@@ -11,7 +11,7 @@ Step 1: install
 
 Step 2: use your application
 ----------------------------
-Start your application and use all the features you can.
+Start your application and use all the features you can.  This ensures that helpers aren't marked as zombies just because you forgot to render a particular template.
 
 Step 3: call ZombieHelpers
 --------------------------
@@ -26,6 +26,10 @@ You can also provide a template name to just get a list of zombie helpers for th
 Package["froatsnook:zombie-helpers"].ZombieHelpers("xyz")
 // => ["Template.xyz.helper4"]
 ```
+
+Step 4: Delete!
+---------------
+Go through the potential zombies, make sure they aren't used, delete them, and forget them.
 
 Debug Only
 ==========
