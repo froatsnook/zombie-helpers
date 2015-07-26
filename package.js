@@ -1,7 +1,7 @@
 Package.describe({
     name: "froatsnook:zombie-helpers",
     summary: "Find helpers you're not using anymore",
-    version: "1.0.1",
+    version: "1.0.2",
     documenation: "README.md",
     git: "https://github.com/froatsnook/zombie-helpers",
     debugOnly: true,
